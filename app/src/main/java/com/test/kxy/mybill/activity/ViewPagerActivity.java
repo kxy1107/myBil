@@ -103,7 +103,7 @@ public class ViewPagerActivity extends Activity implements OnPageChangeListener,
         switch (view.getId()){
             case R.id.btn_start :
 
-                Intent intent = new Intent(ViewPagerActivity.this,MainActivity.class);
+                Intent intent = new Intent(ViewPagerActivity.this,IndexActivity.class);
                 startActivity(intent);
                 break;
         }
